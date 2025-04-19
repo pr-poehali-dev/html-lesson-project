@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -27,6 +28,15 @@ const Index = () => {
             <p>X<sup>2</sup> - верхний индекс</p>
             <p>H<sub>2</sub>O - нижний индекс</p>
             <p className="text-blue-500"><b><i>Это жирный курсивный текст синего цвета</i></b></p>
+          </div>
+          
+          <div className="mt-4">
+            <Link 
+              to="/about" 
+              className="text-blue-600 hover:text-blue-800 underline"
+            >
+              Перейти на страницу обо мне
+            </Link>
           </div>
         </div>
         
