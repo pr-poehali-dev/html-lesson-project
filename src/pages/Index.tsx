@@ -30,13 +30,37 @@ const Index = () => {
             <p className="text-blue-500"><b><i>Это жирный курсивный текст синего цвета</i></b></p>
           </div>
           
-          <div className="mt-4">
-            <Link 
-              to="/about" 
-              className="text-blue-600 hover:text-blue-800 underline"
-            >
-              Перейти на страницу обо мне
-            </Link>
+          <div className="mt-4 space-y-2">
+            <div>
+              <Link 
+                to="/about" 
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                Перейти на страницу обо мне
+              </Link>
+            </div>
+            
+            <div>
+              <a 
+                href="https://google.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                Открыть Google в новой вкладке
+              </a>
+            </div>
+            
+            <div>
+              <a 
+                href="https://yandex.ru" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                Открыть Яндекс в новой вкладке
+              </a>
+            </div>
           </div>
         </div>
         
